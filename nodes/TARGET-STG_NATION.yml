@@ -74,7 +74,7 @@ steps:
               - columnReferences:
                   - columnCounter: 0b853c0f-2814-4537-b90a-b6807143d1be
                     stepCounter: a6d8fe25-c3b8-42e7-9bf1-b928430d6782
-                transform: ""
+                transform: LOWER("NATION"."N_COMMENT")
         cteString: ""
         enabledColumnTestIDs: []
         sourceMapping:
