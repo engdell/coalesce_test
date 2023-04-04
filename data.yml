@@ -1,5 +1,12 @@
 defaultStorageMapping: TARGET
-jobs: {}
+jobs:
+  Job-1:
+    excludeSelector: ""
+    id: 1
+    includeSelector: "{nodeType: Stage}"
+    name: my stage job
+    steps: []
+    subgraphs: []
 locations:
   SRC:
     mappingDefinitions: {}
